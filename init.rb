@@ -1,4 +1,7 @@
-Redmine::Plugin.register :redmine_plugin_httpheader_authentication do
+require 'redmine'
+require_dependency 'redmine_plugin_httpheader_auth/hooks'
+
+Redmine::Plugin.register :redmine_plugin_httpheader_auth do
   name 'Redmine Plugin Httpheader Authentication plugin'
   author 'Dobashi, Hiroki'
   description 'This is a plugin for Redmine'
