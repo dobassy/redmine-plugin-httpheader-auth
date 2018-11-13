@@ -13,3 +13,19 @@ The plugin for automatic login with user name set in the HTTP header.
 ## TODO
 
 Add processing to decrypt the encrypted header information.
+
+## Development
+
+Set up the redmine plugin development environment with docker.
+
+First start the database. The reason is that it takes time to initialize db.
+
+```
+docker-compose -f misc/docker-compose.yml up -d db
+```
+
+Next, start the redmine server.
+
+```
+docker-compose -f misc/docker-compose.yml up redmine
+```
