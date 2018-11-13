@@ -1,9 +1,9 @@
 require 'redmine'
-require_dependency 'redmine_plugin_httpheader_auth/account_controller_patch'
+require_dependency 'redmine_httpheader_auth/account_controller_patch'
 
 
-Redmine::Plugin.register :redmine_plugin_httpheader_auth do
-  name 'Redmine Plugin Httpheader Authentication'
+Redmine::Plugin.register :redmine_httpheader_auth do
+  name 'Redmine HTTP Header Authentication Plugin'
   author 'Dobashi, Hiroki'
   description 'The plugin for automatic login with user name set in the HTTP header.'
   version '0.9.1'

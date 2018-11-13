@@ -10,7 +10,7 @@ services:
       REDMINE_DB_PASSWORD: dev-password
       RAILS_ENV: development
     volumes:
-      - ../:/usr/src/redmine/plugins/redmine_plugin_httpheader_auth/
+      - ../:/usr/src/redmine/plugins/redmine_httpheader_auth/
     depends_on:
       - db
   db:

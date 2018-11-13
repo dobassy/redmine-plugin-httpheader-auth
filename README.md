@@ -1,4 +1,4 @@
-# HTTP Header Authentication
+# HTTP Header Authentication for Redmine
 
 The plugin for automatic login with user name set in the HTTP header.
 
